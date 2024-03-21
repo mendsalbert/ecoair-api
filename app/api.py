@@ -3,6 +3,8 @@ from typing import Any
 import asyncio
 import numpy as np
 import pandas as pd
+import os
+
 from fastapi import APIRouter, HTTPException, Depends
 from fastapi.encoders import jsonable_encoder
 from loguru import logger
@@ -13,14 +15,15 @@ from pymongo.server_api import ServerApi
 from app import __version__, schemas
 from app.config import settings
 import httpx
+from dotenv import load_dotenv
 
 from bson import ObjectId
 from fastapi.responses import JSONResponse
 
 api_router = APIRouter()
+load_dotenv()
 
-
-MONGO_DETAILS = "mongodb+srv://mends:730TpOGNaCTTV9P1@ecoair.pcq8c0h.mongodb.net/?retryWrites=true&w=majority&appName=ecoair"
+MONGO_DETAILS = os.getenv('MONGO_DETAILS')
 DATABASE_NAME = "ecoair"
 COLLECTION_COUNTRIES = "countries" 
 COLLECTION_INSTRUMENTS = "instruments" 
