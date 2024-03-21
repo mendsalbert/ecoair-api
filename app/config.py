@@ -26,7 +26,7 @@ class Settings(BaseSettings):
         "https://localhost:8000",  # type: ignore
     ]
 
-    PROJECT_NAME: str = "House Price Prediction API"
+    PROJECT_NAME: str = "EcoAir API"
 
     class Config:
         case_sensitive = True

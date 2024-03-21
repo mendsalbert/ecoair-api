@@ -8,7 +8,7 @@ WORKDIR /opt/house-prices-api
 ARG PIP_EXTRA_INDEX_URL
 
 # Install requirements, including from Gemfury
-ADD ./house-prices-api /opt/house-prices-api/
+ADD ./backend /opt/house-prices-api/
 RUN pip install --upgrade pip
 RUN pip install -r /opt/house-prices-api/requirements.txt
 
