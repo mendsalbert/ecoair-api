@@ -16,6 +16,7 @@ from app import __version__, schemas
 from app.config import settings
 import httpx
 from dotenv import load_dotenv
+# from pathlib import Path
 
 from bson import ObjectId
 from fastapi.responses import JSONResponse
@@ -23,6 +24,8 @@ from fastapi.responses import JSONResponse
 api_router = APIRouter()
 load_dotenv()
 
+# dotenv_path = Path('path/to/.env')
+# load_dotenv(dotenv_path=dotenv_path)
 MONGO_DETAILS = os.getenv('MONGO_DETAILS')
 DATABASE_NAME = "ecoair"
 COLLECTION_COUNTRIES = "countries" 
