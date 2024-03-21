@@ -52,6 +52,7 @@ class Location(BaseModel):
 
     class Config:
         allow_population_by_field_name = True
+        extra = 'allow'
 
 class LocationResponse(BaseModel):
     results: List[Location]
