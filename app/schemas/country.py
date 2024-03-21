@@ -16,6 +16,7 @@ class Country(BaseModel):
 
     class Config:
         allow_population_by_field_name = True
+        extra = 'allow'
 
 class CountriesResponse(BaseModel):
     results: List[Country]

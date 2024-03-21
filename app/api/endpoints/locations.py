@@ -6,7 +6,7 @@ from app import __version__, schemas
 
 router = APIRouter()
 
-@router.get("/fetch_locations", status_code=200)
+@router.get("/fetch_locations", response_model=schemas.LocationResponse, status_code=200)
 
 async def fetch_locations():
     db = await get_database()
