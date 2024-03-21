@@ -2,8 +2,11 @@ from fastapi import APIRouter, HTTPException
 import httpx
 from app.db.database import get_database
 from app.core.config import settings
-from app.schemas import CountriesResponse
-@router.get("/fetch_countries", response_model=CountriesResponse, status_code=200)
+# from app.schemas import CountriesResponse
+
+router = APIRouter()
+
+@router.get("/fetch_countries", status_code=200)
 
 async def fetch_countries():
     db = await get_database()

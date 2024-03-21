@@ -1,6 +1,6 @@
 from fastapi import APIRouter
-from app.api.endpoints import countries, instruments, locations, parameters, providers, owners, manufacturers, sensors
-
+# from app.api.endpoints import countries
+from app.api.endpoints import countries
 api_router = APIRouter()
 
 # Include routers from endpoints modules
@@ -202,25 +202,25 @@ api_router.include_router(countries.router, tags=["countries"], prefix="/countri
         
 # @api_router.get("/fetch_sensors")
 # async def fetch_sensors():
-    async with httpx.AsyncClient() as client:
-        # Fetch all locations
-        response = await client.get('https://api.openaq.org/v3/locations')
-        if response.status_code != 200:
-            raise HTTPException(status_code=400, detail="Error fetching locations data from OpenAQ")
+    # async with httpx.AsyncClient() as client:
+    #     # Fetch all locations
+    #     response = await client.get('https://api.openaq.org/v3/locations')
+    #     if response.status_code != 200:
+    #         raise HTTPException(status_code=400, detail="Error fetching locations data from OpenAQ")
 
-        locations_data = response.json()
-        if "results" in locations_data:
-            # For each location, fetch its sensors
-            for location in locations_data["results"]:
-                location_id = location["id"]  # Assuming 'id' is the correct key for location ID
-                sensor_response = await client.get(f'https://api.openaq.org/v3/locations/{location_id}/sensors')
+    #     locations_data = response.json()
+    #     if "results" in locations_data:
+    #         # For each location, fetch its sensors
+    #         for location in locations_data["results"]:
+    #             location_id = location["id"]  # Assuming 'id' is the correct key for location ID
+    #             sensor_response = await client.get(f'https://api.openaq.org/v3/locations/{location_id}/sensors')
                 
-                if sensor_response.status_code == 200:
-                    sensor_data = sensor_response.json()
-                    if "results" in sensor_data and sensor_data["results"]:
-                        # Insert sensor data into MongoDB
-                        await db[COLLECTION_SENSORS].insert_many(sensor_data["results"])
+    #             if sensor_response.status_code == 200:
+    #                 sensor_data = sensor_response.json()
+    #                 if "results" in sensor_data and sensor_data["results"]:
+    #                     # Insert sensor data into MongoDB
+    #                     await db[COLLECTION_SENSORS].insert_many(sensor_data["results"])
 
-            return {"message": "Sensors data stored successfully in MongoDB."}
-        else:
-            return {"message": "No locations data found."}
+    #         return {"message": "Sensors data stored successfully in MongoDB."}
+    #     else:
+    #         return {"message": "No locations data found."}
