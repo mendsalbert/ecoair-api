@@ -7,7 +7,8 @@ from .endpoints import (
     # instruments,
     locations,
     gLocations,
-    parameters
+    parameters,
+    gParameters
     # parameters,
     # providers,
     # owners,
@@ -21,5 +22,6 @@ api_router.include_router(parameters.router, prefix="/parameters", tags=["Load D
 
 
 api_router.include_router(gLocations.router, prefix="/locations", tags=["Get Datasets"])
+api_router.include_router(gParameters.router, prefix="/parameters", tags=["Get Datasets"])
 # api_router.include_router(locations.router, prefix="/locations", tags=["Locations"])
 # include other routers similarly

@@ -16,7 +16,7 @@ async def fetch_locations():
             raise HTTPException(status_code=400, detail="Error fetching data from OpenAQ")
         data = response.json()
         if "results" in data:
-            await db[settings.collection_locations].insert_many(data["results"])
+            await db[settings.collection_parameters].insert_many(data["results"])
             return {"message": "Parameters data stored successfully in MongoDB."}
         else:
             return {"message": "No parameters data found."}
