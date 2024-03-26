@@ -9,14 +9,14 @@ from bson import ObjectId
 router = APIRouter()
 
 
-@router.get("/get-parameters",response_model=schemas.LocationResponse, status_code=200)
-async def get_all_locations():
+@router.get("/get-parameters", status_code=200)
+async def get_all_parameters():
     db = await get_database()
     collection = db["parameters"]  # Specify your collection name
-    locations_cursor = collection.find()
-    locations = await locations_cursor.to_list(None)  # Fetch all documents
+    parameters_cursor = collection.find()
+    parameters = await parameters_cursor.to_list(None)  # Fetch all documents
     # Convert _id from ObjectId to string for JSON serialization
-    locations = [dict(location, _id=str(location["_id"])) for location in locations]
+    parameters = [dict(parameter, _id=str(parameter["_id"])) for parameter in parameters]
     # Use custom encoder for the response
-    json_compatible_item_data = jsonable_encoder(locations, custom_encoder={ObjectId: str})
+    json_compatible_item_data = jsonable_encoder(parameters, custom_encoder={ObjectId: str})
     return JSONResponse(content=json_compatible_item_data)

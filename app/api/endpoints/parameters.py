@@ -8,7 +8,7 @@ from fastapi.responses import JSONResponse
 router = APIRouter()
 
 @router.get("/fetch_paramenters", status_code=200)
-async def fetch_locations():
+async def fetch_parameters():
     db = await get_database()
     async with httpx.AsyncClient() as client:
         response = await client.get('https://api.openaq.org/v3/parameters')
