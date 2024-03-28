@@ -4,16 +4,18 @@ from .endpoints.countries import router as countries_router
 # import other routers from endpoints
 from .endpoints import (
     countries,
-    # instruments,
     locations,
     parameters,
     manufacturers,
     providers,
+    instruments,
     gLocations,
     gParameters,
     gCountries,
     gManufacturers,
-    gProviders
+    gProviders,
+    gIntruments
+    
     # parameters,
     # providers,
     # owners,
@@ -26,6 +28,7 @@ api_router.include_router(locations.router, prefix="/locations", tags=["Load Dat
 api_router.include_router(parameters.router, prefix="/parameters", tags=["Load Datasets"])
 api_router.include_router(manufacturers.router, prefix="/manufacturers", tags=["Load Datasets"])
 api_router.include_router(providers.router, prefix="/providers", tags=["Load Datasets"])
+api_router.include_router(instruments.router, prefix="/instruments", tags=["Load Datasets"])
 
 
 api_router.include_router(gLocations.router, prefix="/locations", tags=["Get Datasets"])
@@ -33,3 +36,4 @@ api_router.include_router(gParameters.router, prefix="/parameters", tags=["Get D
 api_router.include_router(gCountries.router, prefix="/countries", tags=["Get Datasets"])
 api_router.include_router(gManufacturers.router, prefix="/manufacturers", tags=["Get Datasets"])
 api_router.include_router(gProviders.router, prefix="/providers", tags=["Get Datasets"])
+api_router.include_router(gIntruments.router, prefix="/instruments", tags=["Get Datasets"])
