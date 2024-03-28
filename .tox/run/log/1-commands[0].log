@@ -5,7 +5,7 @@ env TMPDIR: /var/folders/d_/fmwppt2s6zdd3hc8y4fvs_km0000gn/T/
 env LANG: en_US.UTF-8
 env HOME: /Users/albertmends
 env PATH: /Users/albertmends/Documents/ecoair/backend/.tox/test_app/bin:/Library/Frameworks/Python.framework/Versions/3.12/bin:/Users/albertmends/.nvm/versions/node/v21.2.0/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin:/var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin:/Library/Apple/usr/bin
-env PYTHONHASHSEED: 1166726967
+env PYTHONHASHSEED: 585186662
 env PIP_DISABLE_PIP_VERSION_CHECK: 1
 env PYTHONIOENCODING: utf-8
 env PYTHONPATH: .
@@ -13,446 +13,101 @@ env TOX_ENV_NAME: run
 env TOX_WORK_DIR: /Users/albertmends/Documents/ecoair/backend/.tox
 env TOX_ENV_DIR: /Users/albertmends/Documents/ecoair/backend/.tox/test_app
 env VIRTUAL_ENV: /Users/albertmends/Documents/ecoair/backend/.tox/test_app
-env COLUMNS: 59
-env LINES: 6
-metadata pid: 38828
+env COLUMNS: 32
+env LINES: 8
+metadata pid: 84880
 cwd: /Users/albertmends/Documents/ecoair/backend
 allow: /Users/albertmends/Documents/ecoair/backend/.tox/test_app/bin/*
 cmd: python app/main.py
 exit_code: -15
-[32mINFO[0m:     ::1:65272 - "[1mGET /docs HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:65272 - "[1mGET /api/v1/openapi.json HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:65294 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:65351 - "[1mGET / HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:65356 - "[1mGET / HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:65356 - "[1mGET / HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:65356 - "[1mGET / HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:60054 - "[1mGET /docs HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:60059 - "[1mGET /api/v1/openapi.json HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:60097 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:60940 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:61161 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:61421 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:61597 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:61947 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:50680 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:51028 - "[1mGET /api/v1/openapi.json HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:51043 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:60538 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:60600 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:60751 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:61406 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:61481 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:61520 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:61607 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:62212 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:62212 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:62454 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:62552 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:62651 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:63443 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:63634 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:63678 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:63678 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:63791 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:64057 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:64144 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:64525 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:64615 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:50039 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:50164 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:50229 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:50267 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:50346 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:50385 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:50418 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:50947 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:51006 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:51076 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:51137 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:54499 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [91m500 Internal Server Error[0m
-[32mINFO[0m:     ::1:54516 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [91m500 Internal Server Error[0m
-[32mINFO[0m:     ::1:62981 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:64799 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:64836 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:64876 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:64921 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:64965 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:65020 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:65074 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:65091 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:65109 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:65091 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:65156 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:65231 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:65279 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:49242 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:49360 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:52785 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:53478 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:53535 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:53621 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:53793 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:53863 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:53919 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:53972 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:54020 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:54096 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:54174 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:54278 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:54328 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:55140 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:55327 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:55906 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:56020 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:56034 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:56100 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:56165 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:56805 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:57812 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:57954 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:59204 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:59457 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:59744 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:60041 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:60135 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:60280 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:60537 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:61471 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:61618 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:62085 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:62348 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:62652 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:62783 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:63093 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:63552 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:63731 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:64119 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:64304 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:64369 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:64405 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:64744 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:64848 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:64898 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:65022 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:50702 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:54757 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:58199 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:61889 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:62104 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:63056 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:63371 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:53526 - "[1mGET /docs HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:53535 - "[1mGET /api/v1/openapi.json HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:62613 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:62824 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:62925 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:63133 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:63910 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:53217 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:57427 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [91m500 Internal Server Error[0m
-[32mINFO[0m:     ::1:60931 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:61404 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:62337 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:62725 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:63362 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:64290 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:65024 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:49623 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:50534 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:52751 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:55291 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
-[32mINFO[0m:     ::1:62374 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [91m500 Internal Server Error[0m
+[32mINFO[0m:     ::1:56539 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     ::1:57904 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     ::1:63753 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     ::1:49735 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     ::1:49816 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     ::1:49877 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     ::1:50236 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     ::1:50298 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     ::1:50639 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     ::1:50704 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     ::1:57860 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     ::1:57912 - "[1mGET /api/v1/locations/get-locations HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     ::1:58469 - "[1mGET /docs HTTP/1.1[0m" [32m200 OK[0m
+[32mINFO[0m:     ::1:58469 - "[1mGET /api/v1/openapi.json HTTP/1.1[0m" [32m200 OK[0m
 
 standard error:
-[32m2024-03-21 18:56:25.299[0m | [33m[1mWARNING [0m | [36m__main__[0m:[36m<module>[0m:[36m60[0m - [33m[1mRunning in development mode. Do not run like this in production.[0m
-[32mINFO[0m:     Started server process [[36m38828[0m]
+[32m2024-03-25 15:05:03.188[0m | [33m[1mWARNING [0m | [36m__main__[0m:[36m<module>[0m:[36m60[0m - [33m[1mRunning in development mode. Do not run like this in production.[0m
+[32mINFO[0m:     Started server process [[36m84880[0m]
 [32mINFO[0m:     Waiting for application startup.
 [32mINFO[0m:     Application startup complete.
 [32mINFO[0m:     Uvicorn running on [1mhttp://localhost:8001[0m (Press CTRL+C to quit)
-[31mERROR[0m:    Exception in ASGI application
-Traceback (most recent call last):
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/uvicorn/protocols/http/h11_impl.py", line 407, in run_asgi
-    result = await app(  # type: ignore[func-returns-value]
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/uvicorn/middleware/proxy_headers.py", line 69, in __call__
-    return await self.app(scope, receive, send)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/fastapi/applications.py", line 1054, in __call__
-    await super().__call__(scope, receive, send)
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/starlette/applications.py", line 123, in __call__
-    await self.middleware_stack(scope, receive, send)
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/starlette/middleware/errors.py", line 186, in __call__
-    raise exc
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/starlette/middleware/errors.py", line 164, in __call__
-    await self.app(scope, receive, _send)
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/starlette/middleware/cors.py", line 91, in __call__
-    await self.simple_response(scope, receive, send, request_headers=headers)
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/starlette/middleware/cors.py", line 146, in simple_response
-    await self.app(scope, receive, send)
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/starlette/middleware/exceptions.py", line 62, in __call__
-    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/starlette/_exception_handler.py", line 64, in wrapped_app
-    raise exc
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
-    await app(scope, receive, sender)
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/starlette/routing.py", line 758, in __call__
-    await self.middleware_stack(scope, receive, send)
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/starlette/routing.py", line 778, in app
-    await route.handle(scope, receive, send)
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/starlette/routing.py", line 299, in handle
-    await self.app(scope, receive, send)
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/starlette/routing.py", line 79, in app
-    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/starlette/_exception_handler.py", line 64, in wrapped_app
-    raise exc
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
-    await app(scope, receive, sender)
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/starlette/routing.py", line 74, in app
-    response = await func(request)
-               ^^^^^^^^^^^^^^^^^^^
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/fastapi/routing.py", line 278, in app
-    raw_response = await run_endpoint_function(
-                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/fastapi/routing.py", line 191, in run_endpoint_function
-    return await dependant.call(**values)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/Users/albertmends/Documents/ecoair/backend/app/api/endpoints/gLocations.py", line 14, in get_all_locations
-    db = await get_database()
-         ^^^^^^^^^^^^^^^^^^^^
-  File "/Users/albertmends/Documents/ecoair/backend/app/db/database.py", line 5, in get_database
-    client = AsyncIOMotorClient(settings.mongo_details)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/motor/core.py", line 163, in __init__
-    delegate = self.__delegate_class__(*args, **kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/pymongo/mongo_client.py", line 771, in __init__
-    res = uri_parser.parse_uri(
-          ^^^^^^^^^^^^^^^^^^^^^
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/pymongo/uri_parser.py", line 558, in parse_uri
-    nodes = dns_resolver.get_hosts()
-            ^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/pymongo/srv_resolver.py", line 131, in get_hosts
-    _, nodes = self._get_srv_response_and_hosts(True)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/pymongo/srv_resolver.py", line 111, in _get_srv_response_and_hosts
-    results = self._resolve_uri(encapsulate_errors)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/pymongo/srv_resolver.py", line 105, in _resolve_uri
-    raise ConfigurationError(str(exc)) from None
-pymongo.errors.ConfigurationError: All nameservers failed to answer the query _mongodb._tcp.ecoair.pcq8c0h.mongodb.net. IN SRV: Server Do53:192.168.0.1@53 answered [Errno 51] Network is unreachable
-[31mERROR[0m:    Exception in ASGI application
-Traceback (most recent call last):
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/uvicorn/protocols/http/h11_impl.py", line 407, in run_asgi
-    result = await app(  # type: ignore[func-returns-value]
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/uvicorn/middleware/proxy_headers.py", line 69, in __call__
-    return await self.app(scope, receive, send)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/fastapi/applications.py", line 1054, in __call__
-    await super().__call__(scope, receive, send)
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/starlette/applications.py", line 123, in __call__
-    await self.middleware_stack(scope, receive, send)
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/starlette/middleware/errors.py", line 186, in __call__
-    raise exc
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/starlette/middleware/errors.py", line 164, in __call__
-    await self.app(scope, receive, _send)
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/starlette/middleware/cors.py", line 91, in __call__
-    await self.simple_response(scope, receive, send, request_headers=headers)
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/starlette/middleware/cors.py", line 146, in simple_response
-    await self.app(scope, receive, send)
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/starlette/middleware/exceptions.py", line 62, in __call__
-    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/starlette/_exception_handler.py", line 64, in wrapped_app
-    raise exc
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
-    await app(scope, receive, sender)
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/starlette/routing.py", line 758, in __call__
-    await self.middleware_stack(scope, receive, send)
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/starlette/routing.py", line 778, in app
-    await route.handle(scope, receive, send)
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/starlette/routing.py", line 299, in handle
-    await self.app(scope, receive, send)
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/starlette/routing.py", line 79, in app
-    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/starlette/_exception_handler.py", line 64, in wrapped_app
-    raise exc
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
-    await app(scope, receive, sender)
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/starlette/routing.py", line 74, in app
-    response = await func(request)
-               ^^^^^^^^^^^^^^^^^^^
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/fastapi/routing.py", line 278, in app
-    raw_response = await run_endpoint_function(
-                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/fastapi/routing.py", line 191, in run_endpoint_function
-    return await dependant.call(**values)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/Users/albertmends/Documents/ecoair/backend/app/api/endpoints/gLocations.py", line 14, in get_all_locations
-    db = await get_database()
-         ^^^^^^^^^^^^^^^^^^^^
-  File "/Users/albertmends/Documents/ecoair/backend/app/db/database.py", line 5, in get_database
-    client = AsyncIOMotorClient(settings.mongo_details)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/motor/core.py", line 163, in __init__
-    delegate = self.__delegate_class__(*args, **kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/pymongo/mongo_client.py", line 771, in __init__
-    res = uri_parser.parse_uri(
-          ^^^^^^^^^^^^^^^^^^^^^
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/pymongo/uri_parser.py", line 558, in parse_uri
-    nodes = dns_resolver.get_hosts()
-            ^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/pymongo/srv_resolver.py", line 131, in get_hosts
-    _, nodes = self._get_srv_response_and_hosts(True)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/pymongo/srv_resolver.py", line 111, in _get_srv_response_and_hosts
-    results = self._resolve_uri(encapsulate_errors)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/pymongo/srv_resolver.py", line 105, in _resolve_uri
-    raise ConfigurationError(str(exc)) from None
-pymongo.errors.ConfigurationError: All nameservers failed to answer the query _mongodb._tcp.ecoair.pcq8c0h.mongodb.net. IN SRV: Server Do53:192.168.0.1@53 answered [Errno 51] Network is unreachable
-[31mERROR[0m:    Exception in ASGI application
-Traceback (most recent call last):
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/uvicorn/protocols/http/h11_impl.py", line 407, in run_asgi
-    result = await app(  # type: ignore[func-returns-value]
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/uvicorn/middleware/proxy_headers.py", line 69, in __call__
-    return await self.app(scope, receive, send)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/fastapi/applications.py", line 1054, in __call__
-    await super().__call__(scope, receive, send)
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/starlette/applications.py", line 123, in __call__
-    await self.middleware_stack(scope, receive, send)
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/starlette/middleware/errors.py", line 186, in __call__
-    raise exc
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/starlette/middleware/errors.py", line 164, in __call__
-    await self.app(scope, receive, _send)
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/starlette/middleware/cors.py", line 91, in __call__
-    await self.simple_response(scope, receive, send, request_headers=headers)
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/starlette/middleware/cors.py", line 146, in simple_response
-    await self.app(scope, receive, send)
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/starlette/middleware/exceptions.py", line 62, in __call__
-    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/starlette/_exception_handler.py", line 64, in wrapped_app
-    raise exc
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
-    await app(scope, receive, sender)
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/starlette/routing.py", line 758, in __call__
-    await self.middleware_stack(scope, receive, send)
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/starlette/routing.py", line 778, in app
-    await route.handle(scope, receive, send)
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/starlette/routing.py", line 299, in handle
-    await self.app(scope, receive, send)
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/starlette/routing.py", line 79, in app
-    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/starlette/_exception_handler.py", line 64, in wrapped_app
-    raise exc
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
-    await app(scope, receive, sender)
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/starlette/routing.py", line 74, in app
-    response = await func(request)
-               ^^^^^^^^^^^^^^^^^^^
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/fastapi/routing.py", line 278, in app
-    raw_response = await run_endpoint_function(
-                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/fastapi/routing.py", line 191, in run_endpoint_function
-    return await dependant.call(**values)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/Users/albertmends/Documents/ecoair/backend/app/api/endpoints/gLocations.py", line 14, in get_all_locations
-    db = await get_database()
-         ^^^^^^^^^^^^^^^^^^^^
-  File "/Users/albertmends/Documents/ecoair/backend/app/db/database.py", line 5, in get_database
-    client = AsyncIOMotorClient(settings.mongo_details)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/motor/core.py", line 163, in __init__
-    delegate = self.__delegate_class__(*args, **kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/pymongo/mongo_client.py", line 771, in __init__
-    res = uri_parser.parse_uri(
-          ^^^^^^^^^^^^^^^^^^^^^
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/pymongo/uri_parser.py", line 558, in parse_uri
-    nodes = dns_resolver.get_hosts()
-            ^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/pymongo/srv_resolver.py", line 131, in get_hosts
-    _, nodes = self._get_srv_response_and_hosts(True)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/pymongo/srv_resolver.py", line 111, in _get_srv_response_and_hosts
-    results = self._resolve_uri(encapsulate_errors)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/pymongo/srv_resolver.py", line 105, in _resolve_uri
-    raise ConfigurationError(str(exc)) from None
-pymongo.errors.ConfigurationError: The resolution lifetime expired after 21.209 seconds: Server Do53:192.168.0.1@53 answered The DNS operation timed out.; Server Do53:192.168.0.1@53 answered The DNS operation timed out.; Server Do53:192.168.0.1@53 answered The DNS operation timed out.; Server Do53:192.168.0.1@53 answered The DNS operation timed out.; Server Do53:192.168.0.1@53 answered The DNS operation timed out.; Server Do53:192.168.0.1@53 answered The DNS operation timed out.; Server Do53:192.168.0.1@53 answered The DNS operation timed out.
-[31mERROR[0m:    Exception in ASGI application
-Traceback (most recent call last):
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/uvicorn/protocols/http/h11_impl.py", line 407, in run_asgi
-    result = await app(  # type: ignore[func-returns-value]
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/uvicorn/middleware/proxy_headers.py", line 69, in __call__
-    return await self.app(scope, receive, send)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/fastapi/applications.py", line 1054, in __call__
-    await super().__call__(scope, receive, send)
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/starlette/applications.py", line 123, in __call__
-    await self.middleware_stack(scope, receive, send)
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/starlette/middleware/errors.py", line 186, in __call__
-    raise exc
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/starlette/middleware/errors.py", line 164, in __call__
-    await self.app(scope, receive, _send)
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/starlette/middleware/cors.py", line 91, in __call__
-    await self.simple_response(scope, receive, send, request_headers=headers)
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/starlette/middleware/cors.py", line 146, in simple_response
-    await self.app(scope, receive, send)
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/starlette/middleware/exceptions.py", line 62, in __call__
-    await wrap_app_handling_exceptions(self.app, conn)(scope, receive, send)
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/starlette/_exception_handler.py", line 64, in wrapped_app
-    raise exc
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
-    await app(scope, receive, sender)
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/starlette/routing.py", line 758, in __call__
-    await self.middleware_stack(scope, receive, send)
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/starlette/routing.py", line 778, in app
-    await route.handle(scope, receive, send)
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/starlette/routing.py", line 299, in handle
-    await self.app(scope, receive, send)
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/starlette/routing.py", line 79, in app
-    await wrap_app_handling_exceptions(app, request)(scope, receive, send)
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/starlette/_exception_handler.py", line 64, in wrapped_app
-    raise exc
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/starlette/_exception_handler.py", line 53, in wrapped_app
-    await app(scope, receive, sender)
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/starlette/routing.py", line 74, in app
-    response = await func(request)
-               ^^^^^^^^^^^^^^^^^^^
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/fastapi/routing.py", line 278, in app
-    raw_response = await run_endpoint_function(
-                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/fastapi/routing.py", line 191, in run_endpoint_function
-    return await dependant.call(**values)
-           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/Users/albertmends/Documents/ecoair/backend/app/api/endpoints/gLocations.py", line 14, in get_all_locations
-    db = await get_database()
-         ^^^^^^^^^^^^^^^^^^^^
-  File "/Users/albertmends/Documents/ecoair/backend/app/db/database.py", line 5, in get_database
-    client = AsyncIOMotorClient(settings.mongo_details)
-             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/motor/core.py", line 163, in __init__
-    delegate = self.__delegate_class__(*args, **kwargs)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/pymongo/mongo_client.py", line 771, in __init__
-    res = uri_parser.parse_uri(
-          ^^^^^^^^^^^^^^^^^^^^^
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/pymongo/uri_parser.py", line 558, in parse_uri
-    nodes = dns_resolver.get_hosts()
-            ^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/pymongo/srv_resolver.py", line 131, in get_hosts
-    _, nodes = self._get_srv_response_and_hosts(True)
-               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/pymongo/srv_resolver.py", line 111, in _get_srv_response_and_hosts
-    results = self._resolve_uri(encapsulate_errors)
-              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/pymongo/srv_resolver.py", line 105, in _resolve_uri
-    raise ConfigurationError(str(exc)) from None
-pymongo.errors.ConfigurationError: All nameservers failed to answer the query _mongodb._tcp.ecoair.pcq8c0h.mongodb.net. IN SRV: Server Do53:192.168.0.1@53 answered [Errno 51] Network is unreachable
 [32mINFO[0m:     Shutting down
-[32mINFO[0m:     Finished server process [[36m38828[0m]
+[32mINFO[0m:     Finished server process [[36m84880[0m]
+[31mERROR[0m:    Traceback (most recent call last):
+  File "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/runners.py", line 190, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/base_events.py", line 640, in run_until_complete
+    self.run_forever()
+  File "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/base_events.py", line 607, in run_forever
+    self._run_once()
+  File "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/base_events.py", line 1922, in _run_once
+    handle._run()
+  File "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/uvicorn/server.py", line 68, in serve
+    with self.capture_signals():
+  File "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/contextlib.py", line 144, in __exit__
+    next(self.gen)
+  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/uvicorn/server.py", line 328, in capture_signals
+    signal.raise_signal(captured_signal)
+  File "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/runners.py", line 157, in _on_sigint
+    raise KeyboardInterrupt()
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/starlette/routing.py", line 743, in lifespan
+    await receive()
+  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/uvicorn/lifespan/on.py", line 137, in receive
+    return await self.receive_queue.get()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/queues.py", line 158, in get
+    await getter
+asyncio.exceptions.CancelledError
+
+Traceback (most recent call last):
+  File "/Users/albertmends/Documents/ecoair/backend/app/main.py", line 63, in <module>
+    uvicorn.run(app, host="localhost", port=8001, log_level="debug")
+  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/uvicorn/main.py", line 575, in run
+    server.run()
+  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/uvicorn/server.py", line 65, in run
+    return asyncio.run(self.serve(sockets=sockets))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/runners.py", line 190, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/base_events.py", line 640, in run_until_complete
+    self.run_forever()
+  File "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/base_events.py", line 607, in run_forever
+    self._run_once()
+  File "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/base_events.py", line 1922, in _run_once
+    handle._run()
+  File "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/events.py", line 80, in _run
+    self._context.run(self._callback, *self._args)
+  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/uvicorn/server.py", line 68, in serve
+    with self.capture_signals():
+  File "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/contextlib.py", line 144, in __exit__
+    next(self.gen)
+  File "/Users/albertmends/Documents/ecoair/backend/.tox/test_app/lib/python3.11/site-packages/uvicorn/server.py", line 328, in capture_signals
+    signal.raise_signal(captured_signal)
+  File "/opt/homebrew/Cellar/python@3.11/3.11.6_1/Frameworks/Python.framework/Versions/3.11/lib/python3.11/asyncio/runners.py", line 157, in _on_sigint
+    raise KeyboardInterrupt()
+KeyboardInterrupt
