@@ -9,6 +9,7 @@ from .endpoints import (
     manufacturers,
     providers,
     instruments,
+    sensorsByLocation,
     gLocations,
     gParameters,
     gCountries,
@@ -29,6 +30,7 @@ api_router.include_router(parameters.router, prefix="/parameters", tags=["Load D
 api_router.include_router(manufacturers.router, prefix="/manufacturers", tags=["Load Datasets"])
 api_router.include_router(providers.router, prefix="/providers", tags=["Load Datasets"])
 api_router.include_router(instruments.router, prefix="/instruments", tags=["Load Datasets"])
+api_router.include_router(sensorsByLocation.router, prefix="/sensors-by-location", tags=["Load Datasets"])
 
 
 api_router.include_router(gLocations.router, prefix="/locations", tags=["Get Datasets"])

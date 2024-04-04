@@ -12,6 +12,7 @@ class Settings(BaseSettings):
     collection_owners: str = 'owners'
     collection_manufacturers: str = 'manufacturers'
     collection_sensors: str = "sensors"
+    collection_sensors_by_loc_id : str = 'sensorsbylocid'
 
     class Config:
         env_file = '.env'
