@@ -9,3 +9,4 @@ python-dotenv
 tid-regression-model>=3.2.0
 feature-engine>=1.0.2,<1.6.0  # breaking change in v1.6.0
 httpx
+motor
